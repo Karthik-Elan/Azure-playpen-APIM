@@ -1,0 +1,11 @@
+{
+  "id": "/tags/DispatchEmail",
+  "name": "DispatchEmail",
+  "apiIds": [],
+  "productIds": [],
+  "descriptions": [],
+  "operationIds": [
+    "/apis/dispatch-host-email/operations/ApiByVersionDispatchEmailSendCommandAsyncPost"
+  ],
+  "__GitModuleVersion": 15
+}

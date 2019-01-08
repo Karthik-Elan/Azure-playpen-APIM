@@ -1,0 +1,11 @@
+{
+  "id": "/tags/DispatchSms",
+  "name": "DispatchSms",
+  "apiIds": [],
+  "productIds": [],
+  "descriptions": [],
+  "operationIds": [
+    "/apis/dispatch-host-sms/operations/ApiByVersionDispatchSmsSendCommandAsyncPost"
+  ],
+  "__GitModuleVersion": 15
+}

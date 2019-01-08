@@ -1,0 +1,24 @@
+{
+  "id": "/authorizationServers/aad-clientcred",
+  "name": "AAD-ClientCred",
+  "description": null,
+  "clientRegistrationEndpoint": "http://localhost",
+  "authorizationEndpoint": "https://login.microsoftonline.com/60f5d756-fae6-47ce-9fc7-6a018405f1c3/oauth2/authorize",
+  "authorizationMethods": [
+    "GET"
+  ],
+  "clientAuthenticationMethod": [
+    "Body"
+  ],
+  "tokenBodyParameters": [],
+  "tokenEndpoint": "https://login.microsoftonline.com/60f5d756-fae6-47ce-9fc7-6a018405f1c3/oauth2/token",
+  "supportState": false,
+  "defaultScope": null,
+  "grantTypes": [
+    "clientCredentials"
+  ],
+  "bearerTokenSendingMethods": [
+    "authorizationHeader"
+  ],
+  "__GitModuleVersion": 15
+}
