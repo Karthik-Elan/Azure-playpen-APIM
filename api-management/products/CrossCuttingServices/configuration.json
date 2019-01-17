@@ -1,0 +1,18 @@
+{
+  "id": "/products/crosscuttingservices",
+  "name": "CrossCuttingServices",
+  "$ref-description": "api-management/products/CrossCuttingServices/product.description.html",
+  "terms": null,
+  "subscriptionRequired": true,
+  "approvalRequired": false,
+  "subscriptionsLimit": null,
+  "state": "published",
+  "$refs-groups": [
+    "api-management/groups/Administrators/configuration.json"
+  ],
+  "$refs-apis": [
+    "api-management/apis/Dispatch_Host_Email__1[Current]/configuration.json",
+    "api-management/apis/Dispatch_Host_Sms__1[Current]/configuration.json"
+  ],
+  "__GitModuleVersion": 15
+}

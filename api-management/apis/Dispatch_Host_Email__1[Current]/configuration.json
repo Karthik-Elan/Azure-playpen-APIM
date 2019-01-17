@@ -1,0 +1,65 @@
+{
+  "id": "/apis/dispatch-host-email",
+  "name": "Dispatch Host Email",
+  "apiRevision": "1",
+  "$ref-description": null,
+  "serviceUrl": null,
+  "path": "email",
+  "protocols": [
+    "https"
+  ],
+  "authenticationSettings": {
+    "oAuth2": null,
+    "openid": null
+  },
+  "subscriptionKeyParameterNames": {
+    "header": "Ocp-Apim-Subscription-Key",
+    "query": "subscription-key"
+  },
+  "isCurrent": true,
+  "operations": [
+    {
+      "id": "/apis/dispatch-host-email/operations/ApiByVersionDispatchEmailSendCommandAsyncPost",
+      "name": "ApiByVersionDispatchEmailSendCommandAsyncPost",
+      "method": "POST",
+      "urlTemplate": "/api/{version}/DispatchEmail/SendCommandAsync",
+      "templateParameters": [
+        {
+          "name": "version",
+          "type": "string",
+          "required": true,
+          "values": []
+        }
+      ],
+      "$ref-description": null,
+      "request": {
+        "queryParameters": [],
+        "headers": [],
+        "representations": [
+          {
+            "contentType": "application/json",
+            "schemaId": "5c05b42d6b3efc0ef8d056af",
+            "typeName": "DispatchEmailCommand"
+          }
+        ]
+      },
+      "responses": [
+        {
+          "statusCode": 200,
+          "$ref-description": "api-management/apis/Dispatch_Host_Email__1[Current]/operations/POST__api_{version}_Dispat2YLWX2.response.200.description.html",
+          "representations": [],
+          "headers": []
+        }
+      ],
+      "policies": null
+    }
+  ],
+  "apiSchemas": [
+    {
+      "id": "/apis/dispatch-host-email/schemas/5c05b42d6b3efc0ef8d056af",
+      "contentType": "application/vnd.ms-azure-apim.swagger.definitions+json",
+      "$ref-documentValue": "api-management/apis/Dispatch_Host_Email__1[Current]/apiSchemas/5c05b42d6b3efc0ef8d056af.document"
+    }
+  ],
+  "__GitModuleVersion": 15
+}

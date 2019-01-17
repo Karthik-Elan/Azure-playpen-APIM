@@ -1,0 +1,12 @@
+{
+  "id": "/tags/PxResponse",
+  "name": "PxResponse",
+  "apiIds": [],
+  "productIds": [],
+  "descriptions": [],
+  "operationIds": [
+    "/apis/tokenisation/operations/ApiByVersionPxResponseSuccessGet",
+    "/apis/tokenisation/operations/ApiByVersionPxResponseFailGet"
+  ],
+  "__GitModuleVersion": 15
+}

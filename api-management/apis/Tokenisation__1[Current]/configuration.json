@@ -1,0 +1,218 @@
+{
+  "id": "/apis/tokenisation",
+  "name": "Tokenisation",
+  "apiRevision": "1",
+  "$ref-description": null,
+  "serviceUrl": null,
+  "path": "",
+  "protocols": [
+    "https"
+  ],
+  "authenticationSettings": {
+    "oAuth2": null,
+    "openid": null
+  },
+  "subscriptionKeyParameterNames": {
+    "header": "Ocp-Apim-Subscription-Key",
+    "query": "subscription-key"
+  },
+  "isCurrent": true,
+  "operations": [
+    {
+      "id": "/apis/tokenisation/operations/ApiByVersionPxResponseFailGet",
+      "name": "ApiByVersionPxResponseFailGet",
+      "method": "GET",
+      "urlTemplate": "/api/{version}/PxResponse/fail",
+      "templateParameters": [
+        {
+          "name": "version",
+          "type": "string",
+          "required": true,
+          "values": []
+        }
+      ],
+      "$ref-description": null,
+      "request": {
+        "queryParameters": [
+          {
+            "name": "result",
+            "type": "string",
+            "values": []
+          },
+          {
+            "name": "userId",
+            "type": "string",
+            "values": []
+          }
+        ],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [
+        {
+          "statusCode": 200,
+          "$ref-description": "api-management/apis/Tokenisation__1[Current]/operations/GET__api_{version}_PxRespo11AR275.response.200.description.html",
+          "representations": [],
+          "headers": []
+        }
+      ],
+      "policies": null
+    },
+    {
+      "id": "/apis/tokenisation/operations/ApiByVersionPxResponseSuccessGet",
+      "name": "ApiByVersionPxResponseSuccessGet",
+      "method": "GET",
+      "urlTemplate": "/api/{version}/PxResponse/success",
+      "templateParameters": [
+        {
+          "name": "version",
+          "type": "string",
+          "required": true,
+          "values": []
+        }
+      ],
+      "$ref-description": null,
+      "request": {
+        "queryParameters": [
+          {
+            "name": "result",
+            "type": "string",
+            "values": []
+          },
+          {
+            "name": "userId",
+            "type": "string",
+            "values": []
+          }
+        ],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [
+        {
+          "statusCode": 200,
+          "$ref-description": "api-management/apis/Tokenisation__1[Current]/operations/GET__api_{version}_PxRespo1XW8RAO.response.200.description.html",
+          "representations": [],
+          "headers": []
+        }
+      ],
+      "policies": null
+    },
+    {
+      "id": "/apis/tokenisation/operations/ApiByVersionValidationEchoGet",
+      "name": "ApiByVersionValidationEchoGet",
+      "method": "GET",
+      "urlTemplate": "/api/{version}/Validation/echo",
+      "templateParameters": [
+        {
+          "name": "version",
+          "type": "string",
+          "required": true,
+          "values": []
+        }
+      ],
+      "$ref-description": null,
+      "request": {
+        "queryParameters": [],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [
+        {
+          "statusCode": 200,
+          "$ref-description": "api-management/apis/Tokenisation__1[Current]/operations/GET__api_{version}_Validat180O97H.response.200.description.html",
+          "representations": [],
+          "headers": []
+        }
+      ],
+      "policies": null,
+      "$ref-policy": "api-management/policies/apis/Tokenisation__1[Current]/operations/GET__api_{version}_Validat180O97H.xml"
+    },
+    {
+      "id": "/apis/tokenisation/operations/ApiByVersionValidationValidateGet",
+      "name": "ApiByVersionValidationValidateGet",
+      "method": "GET",
+      "urlTemplate": "/api/{version}/Validation/validate?x_account_id={x_account_id}&x_amount={x_amount}&x_currency={x_currency}&x_customer_email={x_customer_email}&x_customer_phone={x_customer_phone}&x_reference={x_reference}&x_signature={x_signature}",
+      "templateParameters": [
+        {
+          "name": "version",
+          "type": "string",
+          "required": true,
+          "values": []
+        },
+        {
+          "name": "x_account_id",
+          "type": "string",
+          "required": true,
+          "values": []
+        },
+        {
+          "name": "x_amount",
+          "type": "string",
+          "required": true,
+          "values": []
+        },
+        {
+          "name": "x_currency",
+          "type": "string",
+          "required": true,
+          "values": []
+        },
+        {
+          "name": "x_customer_email",
+          "type": "string",
+          "required": true,
+          "values": []
+        },
+        {
+          "name": "x_customer_phone",
+          "type": "string",
+          "required": true,
+          "values": []
+        },
+        {
+          "name": "x_reference",
+          "type": "string",
+          "required": true,
+          "values": []
+        },
+        {
+          "name": "x_signature",
+          "type": "string",
+          "required": true,
+          "values": []
+        }
+      ],
+      "$ref-description": null,
+      "request": {
+        "queryParameters": [
+          {
+            "name": "correlationId",
+            "type": "string",
+            "values": []
+          }
+        ],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [
+        {
+          "statusCode": 200,
+          "$ref-description": "api-management/apis/Tokenisation__1[Current]/operations/GET__api_{version}_Validat13DU9BZ.response.200.description.html",
+          "representations": [],
+          "headers": []
+        }
+      ],
+      "policies": null
+    }
+  ],
+  "apiSchemas": [
+    {
+      "id": "/apis/tokenisation/schemas/5c05b3b56b3efc0ef8d056a0",
+      "contentType": "application/vnd.ms-azure-apim.swagger.definitions+json",
+      "$ref-documentValue": "api-management/apis/Tokenisation__1[Current]/apiSchemas/5c05b3b56b3efc0ef8d056a0.document"
+    }
+  ],
+  "$ref-policy": "api-management/policies/apis/Tokenisation__1[Current].xml",
+  "__GitModuleVersion": 15
+}

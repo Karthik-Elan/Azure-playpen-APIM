@@ -1,0 +1,67 @@
+{
+  "definitions": {
+    "DispatchEmailCommand": {
+      "required": [
+        "correlationId",
+        "serviceName",
+        "instanceId",
+        "body",
+        "from",
+        "to"
+      ],
+      "type": "object",
+      "properties": {
+        "correlationId": {
+          "format": "uuid",
+          "type": "string"
+        },
+        "serviceName": {
+          "type": "string"
+        },
+        "instanceId": {
+          "type": "string"
+        },
+        "body": {
+          "type": "string"
+        },
+        "from": {
+          "type": "string"
+        },
+        "subject": {
+          "type": "string"
+        },
+        "to": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "cc": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "bcc": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "isBodyHtml": {
+          "type": "boolean"
+        },
+        "attachmentFile": {
+          "type": "string"
+        },
+        "hasAttachment": {
+          "default": false,
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}
