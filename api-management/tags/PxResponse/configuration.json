@@ -5,8 +5,8 @@
   "productIds": [],
   "descriptions": [],
   "operationIds": [
-    "/apis/tokenisation/operations/ApiByVersionPxResponseSuccessGet",
-    "/apis/tokenisation/operations/ApiByVersionPxResponseFailGet"
+    "/apis/tokenisation/operations/ApiByVersionPxResponseFailGet",
+    "/apis/tokenisation/operations/ApiByVersionPxResponseSuccessGet"
   ],
   "__GitModuleVersion": 15
 }

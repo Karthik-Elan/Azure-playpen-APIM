@@ -29,6 +29,16 @@
       "name": "ConfirmUrl",
       "title": "Developer new password instruction URL",
       "description": null
+    },
+    {
+      "name": "DevPortalHost",
+      "title": "Developer portal hostname",
+      "description": null
+    },
+    {
+      "name": "ConfirmQuery",
+      "title": "Query string part of the instruction URL",
+      "description": null
     }
   ],
   "name": "/templates/PasswordResetIdentityDefault",

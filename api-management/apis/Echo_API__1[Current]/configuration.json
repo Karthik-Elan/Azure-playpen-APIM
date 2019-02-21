@@ -189,6 +189,21 @@
       ],
       "policies": null,
       "$ref-policy": "api-management/policies/apis/Echo_API__1[Current]/operations/GET__resource-cached.xml"
+    },
+    {
+      "id": "/apis/echo-api/operations/test-ops",
+      "name": "Test OPS",
+      "method": "GET",
+      "urlTemplate": "/tets",
+      "templateParameters": [],
+      "$ref-description": "",
+      "request": {
+        "queryParameters": [],
+        "headers": [],
+        "representations": []
+      },
+      "responses": [],
+      "policies": null
     }
   ],
   "apiSchemas": [],
