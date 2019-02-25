@@ -1,0 +1,43 @@
+{
+  "definitions": {
+    "DispatchSmsCommand": {
+      "required": [
+        "correlationId",
+        "serviceName",
+        "instanceId",
+        "body",
+        "to",
+        "from"
+      ],
+      "type": "object",
+      "properties": {
+        "correlationId": {
+          "format": "uuid",
+          "type": "string"
+        },
+        "serviceName": {
+          "type": "string"
+        },
+        "instanceId": {
+          "type": "string"
+        },
+        "body": {
+          "type": "string"
+        },
+        "to": {
+          "uniqueItems": false,
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "from": {
+          "type": "string"
+        },
+        "subject": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

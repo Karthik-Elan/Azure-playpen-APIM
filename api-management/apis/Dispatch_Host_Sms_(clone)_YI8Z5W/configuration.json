@@ -1,0 +1,65 @@
+{
+  "id": "/apis/5c746ee6cbe5aa7df3be2f9d",
+  "name": "Dispatch Host Sms (clone)",
+  "apiRevision": "1",
+  "$ref-description": null,
+  "serviceUrl": "https://sms.dispatch.fxladl.com.au/",
+  "path": "SMS-clone",
+  "protocols": [
+    "https"
+  ],
+  "authenticationSettings": {
+    "oAuth2": null,
+    "openid": null
+  },
+  "subscriptionKeyParameterNames": {
+    "header": "Ocp-Apim-Subscription-Key",
+    "query": "subscription-key"
+  },
+  "isCurrent": true,
+  "operations": [
+    {
+      "id": "/apis/5c746ee6cbe5aa7df3be2f9d/operations/5c746ef32a6718746300a598",
+      "name": "ApiByVersionDispatchSmsSendCommandAsyncPost",
+      "method": "POST",
+      "urlTemplate": "/api/{version}/DispatchSms/SendCommandAsync",
+      "templateParameters": [
+        {
+          "name": "version",
+          "type": "string",
+          "required": true,
+          "values": []
+        }
+      ],
+      "$ref-description": null,
+      "request": {
+        "queryParameters": [],
+        "headers": [],
+        "representations": [
+          {
+            "contentType": "application/json",
+            "schemaId": "5c05b4566b3efc0ef8d056b6",
+            "typeName": "DispatchSmsCommand"
+          }
+        ]
+      },
+      "responses": [
+        {
+          "statusCode": 200,
+          "$ref-description": "api-management/apis/Dispatch_Host_Sms_(clone)_YI8Z5W/operations/POST__api_{version}_DispatTOESW4.response.200.description.html",
+          "representations": [],
+          "headers": []
+        }
+      ],
+      "policies": null
+    }
+  ],
+  "apiSchemas": [
+    {
+      "id": "/apis/5c746ee6cbe5aa7df3be2f9d/schemas/5c05b4566b3efc0ef8d056b6",
+      "contentType": "application/vnd.ms-azure-apim.swagger.definitions+json",
+      "$ref-documentValue": "api-management/apis/Dispatch_Host_Sms_(clone)_YI8Z5W/apiSchemas/5c05b4566b3efc0ef8d056b6.document"
+    }
+  ],
+  "__GitModuleVersion": 15
+}

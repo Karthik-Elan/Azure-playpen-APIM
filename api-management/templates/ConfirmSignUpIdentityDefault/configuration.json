@@ -29,6 +29,16 @@
       "name": "ConfirmUrl",
       "title": "Developer activation URL",
       "description": null
+    },
+    {
+      "name": "DevPortalHost",
+      "title": "Developer portal hostname",
+      "description": null
+    },
+    {
+      "name": "ConfirmQuery",
+      "title": "Query string part of the activation URL",
+      "description": null
     }
   ],
   "name": "/templates/ConfirmSignUpIdentityDefault",
