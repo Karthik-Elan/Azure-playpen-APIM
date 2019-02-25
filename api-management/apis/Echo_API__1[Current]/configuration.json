@@ -196,7 +196,7 @@
       "method": "GET",
       "urlTemplate": "/tets",
       "templateParameters": [],
-      "$ref-description": "",
+      "$ref-description": null,
       "request": {
         "queryParameters": [],
         "headers": [],
